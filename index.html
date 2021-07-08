@@ -2,36 +2,55 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <header>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li>apps</li>
-                <li><img src="" alt="use ur image here"></li>
+                <div class="topnav">
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="#Images">Images</a></li>
+                <li class="material-icons"><a href="#apps">apps</a></li>
+                <li><a href="#imago"><img style="width: 32px; height: 32px; border-radius: 50%;" src="images/IMG_20210618_014916-min.jpg" alt="use ur image here"></a></li>
+                </div>
             </ul>
         </header>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo">
+        <br>
+        <div class="centering">
+        <img id="gmage" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo">
+        <div id="forumwa">
         <form action="" class="search-bar">
             <div>
-            <input type="search" name="search" id="bar">
+
+            <span style="float: inline-block; position: relative; margin: -33px; z-index: 6;" class="material-icons">search</span>
+            <input type="search" name="search" class="round">
             </div>
-            <div>
-            <input type="submit" name="search" id="submit" value="Google Search">
-            <input type="submit" name="search" id="lucky" value="I'm feeling lucky">
+            <div class="butt-grey">
+            <input style="background-color: #f8f9fa;" type="submit" name="search" id="submit" value="Google Search">
+            <input style="background-color: #f8f9fa;" type="submit" name="search" id="lucky" value="I'm feeling lucky">
             </div>
         </form>
+        </div>
+        </div>
+        
         <footer>
             <ul>
-                <li>About</li>
-                <li>Advertising</li>
-                <li>Business</li>
-                <li>How Search Works</li>
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Settings</li>
+                <div class="bottnav">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Advertising">Advertising</a></li>
+                <li><a href="#Business">Business</a></li>
+                <li><a href="#how-search-works">How Search Works</a></li>
+            </div>
+                <br>
+                <div class="botright">
+                <li><a href="#Privacy">Privacy</a></li>
+                <li><a href="#Terms">Terms</a></li>
+                <li><a href="#Settings">Settings</a></li>
+                
+                </div>
             </ul>
         </footer>
+        
     </body>
 </html>
